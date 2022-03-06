@@ -22,14 +22,6 @@ body {
 
 }
 
-.logo {
-    max-width: fit-content;
-    max-height: fit-content;
-    top: 0;
-    left: 0;
-    
-}
-
 ul {
     display: flex;
     gap: 8px;
