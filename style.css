@@ -1,0 +1,132 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 24px;
+    
+}
+.top-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 48px;
+    max-height: fit-content;
+
+}
+
+.logo {
+    max-width: fit-content;
+    max-height: fit-content;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin-left: auto;
+}
+
+.text {
+   margin-left: 50px;
+   flex-shrink: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.bottom-header {
+    display: flex;
+    max-width: 900px;
+    gap: 52px;
+}
+
+.motto {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    
+}
+
+.featured {
+    display: flex;
+    gap: 52px;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 48px;
+      
+}
+
+.description {
+    max-width: 200px;
+    align-items: flex-start;
+    color: #f9faf8;
+}
+
+
+.drop {
+    margin-bottom: 24px;
+    margin-top: 8px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.desc {
+    max-width: 190px;
+}
+
+.testimonial {
+    display: flex;
+    margin-bottom: 48px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 24px;
+    gap: 16px;
+}
+
+.review {
+    font-style: italic;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: 800;
+}
+
+.newsletter {
+    display: flex;
+    padding: 56px;
+}
+
+.newstitle,
+.newstext {
+    color: #e5e7eb;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    padding: 32px;
+}
+
+.signup {
+    max-width: fit-content;
+}
